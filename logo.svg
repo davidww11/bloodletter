@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007AFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5856D6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bloodGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF3B30;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B47;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="60" fill="url(#bgGrad)" rx="8"/>
+  
+  <!-- Medieval shield/emblem -->
+  <path d="M15 10 L15 35 Q15 45 25 50 Q35 45 35 35 L35 10 Z" fill="white" stroke="#1D1D1F" stroke-width="1"/>
+  
+  <!-- Cross symbol in shield -->
+  <rect x="23" y="15" width="4" height="20" fill="url(#bloodGrad)" rx="1"/>
+  <rect x="18" y="25" width="14" height="4" fill="url(#bloodGrad)" rx="1"/>
+  
+  <!-- Bloodstone in center -->
+  <circle cx="25" cy="27" r="3" fill="#FF3B30" stroke="white" stroke-width="1"/>
+  <circle cx="25" cy="27" r="1.5" fill="#FF6B47"/>
+  
+  <!-- Game title -->
+  <text x="50" y="40" font-family="serif" font-size="24" font-weight="bold" fill="white" filter="url(#glow)">
+    Bloodletter
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="180" cy="15" r="2" fill="url(#bloodGrad)" opacity="0.8"/>
+  <circle cx="185" cy="45" r="1.5" fill="url(#bloodGrad)" opacity="0.6"/>
+  <circle cx="175" cy="50" r="1" fill="url(#bloodGrad)" opacity="0.4"/>
+  
+  <!-- Medieval card corner -->
+  <path d="M190 20 L195 25 L190 30 Z" fill="white" opacity="0.3"/>
+</svg> 
