@@ -257,6 +257,84 @@
             line-height: 1.6;
         }
         
+        /* Tools Grid */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin: 40px 0;
+        }
+        
+        .tool-card {
+            background: var(--background-color);
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .tool-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow);
+            border-color: var(--primary-color);
+        }
+        
+        .tool-icon {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+            display: block;
+        }
+        
+        .tool-card h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--primary-color);
+        }
+        
+        .tool-card p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .tool-link {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .tool-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 122, 255, 0.3);
+        }
+        
+        .tool-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+        
+        .tool-link:hover::before {
+            left: 100%;
+        }
+        
         /* Footer */
         footer {
             background: var(--text-primary);
@@ -305,6 +383,15 @@
             
             .feature-card {
                 padding: 20px;
+            }
+            
+            .tools-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+            
+            .tool-card {
+                padding: 24px;
             }
         }
         
@@ -443,6 +530,33 @@
                     Whether you have a few minutes or several hours, Bloodletter adapts to your gaming schedule with 
                     flexible gameplay sessions and checkpoint systems.
                 </p>
+            </section>
+
+            <section class="game-section">
+                <h2>Related Tools</h2>
+                <p class="game-description">
+                    Enhance your digital experience with these useful online tools. All tools are free to use and require no registration.
+                </p>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon">🎵</div>
+                        <h3>Twitter Space Downloader</h3>
+                        <p>Download Twitter Spaces audio in high quality. Convert Twitter Spaces to MP3 for offline listening.</p>
+                        <a href="https://www.pullvideo.com/" target="_blank" rel="noopener noreferrer" class="tool-link">Visit Tool</a>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon">🖼️</div>
+                        <h3>Image to PDF Converter</h3>
+                        <p>Convert multiple images to PDF instantly. Secure, fast, and supports up to 500 images at once.</p>
+                        <a href="https://pdf.pullvideo.com/" target="_blank" rel="noopener noreferrer" class="tool-link">Visit Tool</a>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon">🎥</div>
+                        <h3>Twitter Video Downloader</h3>
+                        <p>Download Twitter videos in original quality. Fast, free, and works on all devices.</p>
+                        <a href="https://x.pullvideo.com/" target="_blank" rel="noopener noreferrer" class="tool-link">Visit Tool</a>
+                    </div>
+                </div>
             </section>
         </div>
     </main>
