@@ -1,0 +1,5 @@
+Contact: https://github.com/davidww11/bloodletter/issues
+Expires: 2025-12-31T23:59:59.000Z
+Preferred-Languages: en, zh-CN
+Canonical: https://bloodletter.cc/.well-known/security.txt
+Policy: https://github.com/davidww11/bloodletter/blob/main/SECURITY.md 

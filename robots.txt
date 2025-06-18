@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://bloodletter.cc/sitemap.xml
+
+# Disallow common non-content directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+Disallow: /temp/
+Disallow: /tmp/
+
+# Allow all search engines to index images
+User-agent: Googlebot-Image
+Allow: /*.svg
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.webp
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1 

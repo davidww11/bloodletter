@@ -1,0 +1,20 @@
+/* TEAM */
+Developer: David Wang
+Site: https://bloodletter.cc
+GitHub: https://github.com/davidww11/bloodletter
+Location: Global
+
+/* THANKS */
+Game Engine: Unity
+Game Platform: itch.io
+Hosting: GitHub Pages
+Analytics: Google Analytics
+
+/* SITE */
+Last update: 2024/01/20
+Language: English / 中文
+Doctype: HTML5
+IDE: Cursor, Claude AI Assistant
+Standards: HTML5, CSS3, Responsive Design
+Components: SVG Graphics, Google Analytics, Game Iframe
+Optimization: SEO, Performance, Accessibility 
