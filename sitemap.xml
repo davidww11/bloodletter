@@ -7,7 +7,7 @@
     <!-- Main page -->
     <url>
         <loc>https://bloodletter.cc/</loc>
-        <lastmod>2024-01-20</lastmod>
+        <lastmod>2024-12-18</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -15,7 +15,7 @@
     <!-- Game page (if separate) -->
     <url>
         <loc>https://bloodletter.cc/#game</loc>
-        <lastmod>2024-01-20</lastmod>
+        <lastmod>2024-12-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -23,7 +23,7 @@
     <!-- About section -->
     <url>
         <loc>https://bloodletter.cc/#about</loc>
-        <lastmod>2024-01-20</lastmod>
+        <lastmod>2024-12-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -31,7 +31,7 @@
     <!-- How to play section -->
     <url>
         <loc>https://bloodletter.cc/#howtoplay</loc>
-        <lastmod>2024-01-20</lastmod>
+        <lastmod>2024-12-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -39,7 +39,7 @@
     <!-- Related tools section -->
     <url>
         <loc>https://bloodletter.cc/#tools</loc>
-        <lastmod>2024-01-20</lastmod>
+        <lastmod>2024-12-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
